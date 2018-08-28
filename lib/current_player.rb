@@ -19,6 +19,6 @@ def current_player(board)
   if x_count % 2 == 0
     "X"
   else
-    "o"
+    "O"
   end
 end
