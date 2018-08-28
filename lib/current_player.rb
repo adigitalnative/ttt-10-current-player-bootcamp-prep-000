@@ -1,3 +1,8 @@
 def turn_count(board)
-  #number of turns played based on board array
+  counter = 0
+  board.each do |slot|
+    if slot != " "
+      counter += 1
+    end
+  end
 end
