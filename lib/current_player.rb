@@ -16,7 +16,7 @@ def current_player(board)
     end
   end
   
-  if x_count - o_count == 0
+  if move_count % 2 == 0
     "X"
   else
     "O"
