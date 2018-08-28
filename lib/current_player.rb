@@ -19,7 +19,7 @@ def current_player(board)
     end
   end
   
-  if x_count - y_count == 0
+  if x_count - o_count == 0
     "X"
   else
     "O"
