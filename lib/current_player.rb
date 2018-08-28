@@ -9,13 +9,10 @@ def turn_count(board)
 end
 
 def current_player(board)
-  x_count = 0
-  o_count = 0
+  move_count = 0
   board.each do |slot|
-    if slot == "X"
-      x_count += 1
-    elsif slot == "Y"
-      o_count += 1
+    if slot != " "
+      move_count += 1
     end
   end
   
