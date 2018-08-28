@@ -18,8 +18,8 @@ def current_player(board)
   
   if x_counter % 2 == 0
     "X"
-    raise x_counter.inspect
   else
+    raise x_counter.inspect
     "O"
   end
 end
